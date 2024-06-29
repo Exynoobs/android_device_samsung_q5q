@@ -230,8 +230,6 @@ vendor/etc/nfc/libnfc-nxp_RF.conf
 # RIL
 vendor/etc/init/init.vendor.rilcommon.rc
 vendor/etc/init/vendor.samsung.rilchip.qcom.rc
-vendor/lib64/libqmiservices-ext.so
-vendor/lib64/libqmiservices-sem-ext.so
 
 # Sensors config
 vendor/etc/sensors/config/kailua_ak991x_0.json
