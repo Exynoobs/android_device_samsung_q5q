@@ -92,7 +92,7 @@ sec_pmsg.ko
 sec_qc_upload_cause.ko
 sec_upload_cause.ko
 i2c-gpio.ko
-gpio-pca953x.ko
+gpio-pca953x-q5q.ko
 pmic_class.ko
 s2dos05-regulator.ko
 mfd_s2mpb02.ko
@@ -214,7 +214,6 @@ usb_f_qdss.ko
 usb_f_gsi.ko
 usb_f_diag.ko
 usb_f_conn_gadget.ko
-usb_f_ss_mon_gadget.ko
 usb_f_ss_acm.ko
 ucsi_glink.ko
 usbmon.ko
@@ -277,7 +276,6 @@ qcom-spmi-adc5-gen3.ko
 qcom-vadc-common.ko
 industrialio-buffer-cb.ko
 nvmem_qfprom.ko
-sec_arm64_fsimd_debug.ko
 sec_arm64_debug.ko
 sec_qc_rbcmd.ko
 sec_qc_qcom_reboot_reason.ko
