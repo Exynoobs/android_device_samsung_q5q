@@ -1,4 +1,4 @@
-# All unpinned blobs are extracted from S9110ZHS2AWI2
+# All unpinned blobs are extracted from F946BXXS4DXKC
 
 # ACDB
 vendor/etc/audconf/OPEN/acdb_cal.acdb
@@ -13,24 +13,8 @@ vendor/firmware/bt_nvm_loading.xml
 vendor/firmware/bt_nvm_loading_2nd.xml
 
 # Camera
-vendor/lib64/libPdSdCore.so
-vendor/lib64/libsnap_vndk.so
-vendor/lib64/com.qti.chiusecaseselector.so
-vendor/lib64/libautoframing_object_tracker.camera.samsung.so
-vendor/lib64/libarcsoft_udc_enhancement.so
-vendor/lib64/libAISegmenter_v1.camera.samsung.so
-vendor/lib64/SWPD_libTsAf_3K1_TELE.so
-vendor/lib64/libTsAf_Q5B5Q.so
-vendor/lib64/libTsAwbFront_Q5.so
-vendor/lib64/libTsAwb_Q5.so
+vendor/lib64/SWPD_libTsAf_3K1_TELE.so:vendor/lib64/SWPD_libTsAf_3K1_TELE.so;FIX_SONAME
 vendor/lib64/camera/com.samsung.ois.mcu_stm32g.so
-vendor/lib64/camera/com.samsung.sensormodule.0_lsi_s5kgn3.bin
-vendor/lib64/camera/com.samsung.sensormodule.11_sony_imx374.bin
-vendor/lib64/camera/com.samsung.sensormodule.12_sony_imx471_full.bin
-vendor/lib64/camera/com.samsung.sensormodule.13_sony_imx374_full.bin
-vendor/lib64/camera/com.samsung.sensormodule.1_sony_imx471.bin
-vendor/lib64/camera/com.samsung.sensormodule.2_sony_imx258.bin
-vendor/lib64/camera/com.samsung.sensormodule.3_lsi_s5k3k1.bin
 vendor/lib64/camera/com.samsung.sensor.hi1337.so
 vendor/lib64/camera/com.samsung.sensor.hi847.so
 vendor/lib64/camera/com.samsung.sensor.imx258.so
@@ -38,11 +22,18 @@ vendor/lib64/camera/com.samsung.sensor.imx374.so
 vendor/lib64/camera/com.samsung.sensor.imx471.so
 vendor/lib64/camera/com.samsung.sensor.s5k2ld.so
 vendor/lib64/camera/com.samsung.sensor.s5k3j1.so
+vendor/lib64/camera/com.samsung.sensormodule.0_lsi_s5kgn3.bin
+vendor/lib64/camera/com.samsung.sensormodule.11_sony_imx374.bin
+vendor/lib64/camera/com.samsung.sensormodule.12_sony_imx471_full.bin
+vendor/lib64/camera/com.samsung.sensormodule.13_sony_imx374_full.bin
+vendor/lib64/camera/com.samsung.sensormodule.1_sony_imx471.bin
+vendor/lib64/camera/com.samsung.sensormodule.2_sony_imx258.bin
+vendor/lib64/camera/com.samsung.sensormodule.3_lsi_s5k3k1.bin
+vendor/lib64/camera/com.samsung.tuned.lsi_s5k3k1.bin
+vendor/lib64/camera/com.samsung.tuned.lsi_s5kgn3.bin
 vendor/lib64/camera/com.samsung.tuned.sony_imx258.bin
 vendor/lib64/camera/com.samsung.tuned.sony_imx374.bin
 vendor/lib64/camera/com.samsung.tuned.sony_imx471.bin
-vendor/lib64/camera/com.samsung.tuned.lsi_s5k3k1.bin
-vendor/lib64/camera/com.samsung.tuned.lsi_s5kgn3.bin
 vendor/lib64/camera/components/com.qti.eisv2.so
 vendor/lib64/camera/components/com.qti.eisv3.so
 vendor/lib64/camera/components/com.qti.hvx.addconstant.so
@@ -60,7 +51,6 @@ vendor/lib64/camera/components/com.qti.node.eisv2.so
 vendor/lib64/camera/components/com.qti.node.eisv3.so
 vendor/lib64/camera/components/com.qti.node.fcv.so
 vendor/lib64/camera/components/com.qti.node.formatconversion.so
-vendor/lib64/libthirdparty_zoomtranslator_imp.so
 vendor/lib64/camera/components/com.qti.node.gme.so
 vendor/lib64/camera/components/com.qti.node.gpu.so
 vendor/lib64/camera/components/com.qti.node.gyrornn.so
@@ -110,18 +100,19 @@ vendor/lib64/camera/components/com.samsung.node.smooth_transition.so
 vendor/lib64/camera/components/com.samsung.node.uniplugin_capture.so
 vendor/lib64/camera/components/com.samsung.node.uniplugin_preview.so
 vendor/lib64/camera/components/com.samsung.node.uniplugin_recording.so
-vendor/lib64/camera/components/com.samsung.node.uniplugin_vdis.so
+vendor/lib64/camera/components/com.samsung.node.uniplugin_vdis.so;DISABLE_CHECKELF
 vendor/lib64/camera/components/com.ss.stats.aec.so
 vendor/lib64/camera/components/com.ss.stats.af.so
 vendor/lib64/camera/components/com.ss.stats.awb.so
 vendor/lib64/camera/components/com.ss.stats.pdlib.so
-vendor/lib64/camera/components/libTsAeFront_q5.so
-vendor/lib64/camera/components/libTsAe_q5.so
+vendor/lib64/camera/components/libTsAeFront_q5.so;FIX_SONAME
+vendor/lib64/camera/components/libTsAe_q5.so;FIX_SONAME
 vendor/lib64/camera/components/libdepthmapwrapper_secure.so
 vendor/lib64/camera/t_t10_dual_calibration.bin
 vendor/lib64/camera/uw_dual_calibration.bin
 vendor/lib64/camera/w_dual_calibration.bin
 vendor/lib64/com.qti.camx.chiiqutils.so
+vendor/lib64/com.qti.chiusecaseselector.so
 vendor/lib64/com.qti.feature2.afbrckt.so
 vendor/lib64/com.qti.feature2.anchorsync.so
 vendor/lib64/com.qti.feature2.demux.so
@@ -145,6 +136,7 @@ vendor/lib64/com.qti.feature2.serializer.so
 vendor/lib64/com.qti.feature2.statsregeneration.so
 vendor/lib64/com.qti.feature2.stub.so
 vendor/lib64/com.qti.feature2.swmf.so
+vendor/lib64/com.qualcomm.mcx.distortionmapper.so
 vendor/lib64/com.qualcomm.mcx.linearmapper.so
 vendor/lib64/com.qualcomm.mcx.nonlinearmapper.so
 vendor/lib64/com.qualcomm.mcx.policy.mfl.so
@@ -153,17 +145,24 @@ vendor/lib64/com.qualcomm.qti.mcx.usecase.extension.so
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.offline.so
 vendor/lib64/hw/com.qti.chi.override.so
+vendor/lib64/libAISegmenter_v1.camera.samsung.so
+vendor/lib64/libPdSdCore.so
+vendor/lib64/libTsAf_Q5B5Q.so;FIX_SONAME
+vendor/lib64/libTsAwbFront_Q5.so
+vendor/lib64/libTsAwb_Q5.so
+vendor/lib64/libarcsoft_udc_enhancement.so
 vendor/lib64/libcamerapostproc.so
-vendor/lib64/libcamxcommonutils.so
 vendor/lib64/libcamxexternalformatutils.so
 vendor/lib64/libcamximageformatutils.so
-vendor/lib64/libcamxsettingsmanager.so
 vendor/lib64/libcamxswispiqmodule.so
 vendor/lib64/libchifeature2.so
 vendor/lib64/libcom.qti.chinodeutils.so
+vendor/lib64/libthirdparty_zoomtranslator_imp.so
 vendor/lib64/libtriplecam_image_optical_zoom.so
 vendor/lib64/libtriplecam_optical_zoom_control.so
 vendor/lib64/libtriplecam_video_optical_zoom.so
+vendor/lib64/libudc_core.camera.samsung.so
+
 
 # Camera firmware
 vendor/firmware/CAMERA_ICP.b00
@@ -218,8 +217,8 @@ vendor/firmware/evass.mbn
 vendor/firmware/evass.mdt
 
 # Display calibration data
-vendor/etc/display/qdcm_calib_data_Q5_S6E3XA2_AMF756BQ03.json
 vendor/etc/display/qdcm_calib_data_Q5_S6E3FAC_AMB619EK01.json
+vendor/etc/display/qdcm_calib_data_Q5_S6E3XA2_AMF756BQ03.json
 vendor/firmware/Q5_S6E3FAC_AMB619EK01.dat
 vendor/firmware/Q5_S6E3XA2_AMF756BQ03.dat
 vendor/firmware/Q5_S6E3XA2_AMF756EJ01.dat
@@ -228,8 +227,10 @@ vendor/firmware/Q5_S6E3XA2_AMF756EJ01.dat
 vendor/etc/nfc/libnfc-nxp_RF.conf
 
 # RIL
+vendor/etc/init/init.vendor.onebinary.rc
 vendor/etc/init/init.vendor.rilcommon.rc
 vendor/etc/init/vendor.samsung.rilchip.qcom.rc
+vendor/etc/init/vendor.samsung.rild.rc
 
 # Sensors config
 vendor/etc/sensors/config/kailua_ak991x_0.json
@@ -282,15 +283,15 @@ vendor/firmware/hpbtfw21.tlv
 vendor/firmware/hpnv21.b9a
 vendor/firmware/hpnv21.b9b
 vendor/firmware/hpnv21.baa
-vendor/firmware/hpnv21.bin
 vendor/firmware/hpnv21.bb7
 vendor/firmware/hpnv21.bb9
+vendor/firmware/hpnv21.bin
 vendor/firmware/hpnv21g.b9a
 vendor/firmware/hpnv21g.b9b
 vendor/firmware/hpnv21g.baa
-vendor/firmware/hpnv21g.bin
 vendor/firmware/hpnv21g.bb7
 vendor/firmware/hpnv21g.bb9
+vendor/firmware/hpnv21g.bin
 vendor/firmware/mfc/mfc_fw_flash_nu1668.bin
 
 # Wifi firmware
@@ -321,9 +322,9 @@ vendor/firmware/a740_zap.mdt
 
 # Display
 vendor/etc/devicestate/device_state_configuration.xml
-vendor/firmware/ss_dsi_panel_PBA_BOOTING_FHD_DSI1.dat
 vendor/etc/displayconfig/display_layout_configuration.xml
 vendor/etc/input-port-associations.xml
+vendor/firmware/ss_dsi_panel_PBA_BOOTING_FHD_DSI1.dat
 
 # Unihal
 vendor/lib64/liblocaltm_preview.uniplugin@1.0.so
