@@ -205,6 +205,8 @@ vendor/lib64/com.qti.feature2.serializer.so
 vendor/lib64/com.qti.feature2.statsregeneration.so
 vendor/lib64/com.qti.feature2.stub.so
 vendor/lib64/com.qti.feature2.swmf.so
+vendor/lib64/com.qti.settings.sm8550.so
+vendor/lib64/com.qti.stats.common.so
 vendor/lib64/com.qualcomm.mcx.distortionmapper.so
 vendor/lib64/com.qualcomm.mcx.linearmapper.so
 vendor/lib64/com.qualcomm.mcx.nonlinearmapper.so
@@ -214,11 +216,13 @@ vendor/lib64/com.qualcomm.qti.mcx.usecase.extension.so
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.offline.so
 vendor/lib64/hw/com.qti.chi.override.so
+vendor/lib64/libSWNDFilterPreview.camera.samsung.so
 vendor/lib64/libAISegmenter_v1.camera.samsung.so
 vendor/lib64/libPdSdCore.so
 vendor/lib64/libTsAf_Q5B5Q.so;FIX_SONAME
 vendor/lib64/libTsAwbFront_Q5.so
 vendor/lib64/libTsAwb_Q5.so
+vendor/lib64/libUniScaler.uniplugin@1.0.so
 vendor/lib64/libarcsoft_udc_enhancement.so
 vendor/lib64/libcamerapostproc.so
 vendor/lib64/libcamxexternalformatutils.so
@@ -226,12 +230,14 @@ vendor/lib64/libcamximageformatutils.so
 vendor/lib64/libcamxswispiqmodule.so
 vendor/lib64/libchifeature2.so
 vendor/lib64/libcom.qti.chinodeutils.so
+vendor/lib64/libhypermotion_interface.so
+vendor/lib64/libndfilter_preview.uniplugin@1.0.so
 vendor/lib64/libthirdparty_zoomtranslator_imp.so
 vendor/lib64/libtriplecam_image_optical_zoom.so
 vendor/lib64/libtriplecam_optical_zoom_control.so
 vendor/lib64/libtriplecam_video_optical_zoom.so
 vendor/lib64/libudc_core.camera.samsung.so
-
+vendor/lib64/libvdis.uniplugin@1.0.so
 
 # Camera firmware
 vendor/firmware/CAMERA_ICP.b00
@@ -328,6 +334,9 @@ vendor/lib64/sensors.flicker.so
 vendor/lib64/sensors.grip.so
 vendor/lib64/sensors.ssc.so
 
+# Thermal engine
+vendor/bin/hw/vendor.samsung.hardware.thermal@1.0-service
+
 # Touchscreen firmware
 vendor/firmware/tsp_stm/fst2ba61y_q5.bin
 vendor/firmware/tsp_stm/fst2ca78y_q5.bin
@@ -389,6 +398,7 @@ vendor/firmware/a740_zap.b02
 vendor/firmware/a740_zap.elf
 vendor/firmware/a740_zap.mbn
 vendor/firmware/a740_zap.mdt
+vendor/firmware/gmu_gen70200.bin
 
 # Display
 vendor/etc/devicestate/device_state_configuration.xml
