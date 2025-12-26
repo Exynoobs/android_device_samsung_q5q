@@ -4,9 +4,46 @@
 vendor/etc/audconf/OPEN/acdb_cal.acdb
 vendor/etc/audconf/OPEN/workspaceFileXml.qwsp
 
+# Audio
+# Audio
+vendor/lib64/lib_lvacfs.so
+vendor/lib64/librecordalive.so
+vendor/lib64/libar-pal.so
+vendor/lib64/hw/audio.primary.kalama.so
+
 # Audio configs
 vendor/etc/audio/sku_kalama/mixer_paths.xml
+vendor/etc/audio_effects_haptic.xml
 vendor/etc/dolby/dax-default.xml
+vendor/etc/situation_audio_policy_volumes_sec.xml
+
+# Audio firmware
+vendor/firmware/cs35l43-bot-dsp1-spk-prot.bin
+vendor/firmware/cs35l43-bot-dsp1-spk-prot.wmfw
+vendor/firmware/cs35l43-rcv-dsp1-spk-prot.bin
+vendor/firmware/cs35l43-rcv-dsp1-spk-prot.wmfw
+vendor/firmware/cs40l26-a2h.bin
+vendor/firmware/cs40l26-calib.bin
+vendor/firmware/cs40l26-calib.wmfw
+vendor/firmware/cs40l26-dvl.bin
+vendor/firmware/cs40l26-svc.bin
+vendor/firmware/cs40l26-svc1.bin
+vendor/firmware/cs40l26-svc2.bin
+vendor/firmware/cs40l26-svc3.bin
+vendor/firmware/cs40l26-wt1.bin
+vendor/firmware/cs40l26-wt2.bin
+vendor/firmware/cs40l26-wt3.bin
+vendor/firmware/cs40l26.bin
+vendor/firmware/cs40l26.wmfw
+vendor/firmware/dax_param.bin
+
+# Audio FX modules
+vendor/lib64/lib_SamsungRec_08020.so
+vendor/lib64/lib_SoundAlive_play_plus_ver500.so
+vendor/lib64/soundfx/libaudiosaplus_sec.so
+vendor/lib64/soundfx/libsamsungSoundbooster_plus.so
+vendor/lib64/soundfx/libswdap.so
+vendor/lib64/soundfx/libswspatializer.so
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.1-service-qti
