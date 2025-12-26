@@ -24,5 +24,6 @@ PRODUCT_MANUFACTURER := Samsung
 PRODUCT_GMS_CLIENTID_BASE := android-samsung
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="q5qxxx-user 14 UP1A.231005.007 F946BXXS4DXKC release-keys" \
-    BuildFingerprint=amsung/q5qxxx/q5q:13/TP1A.220624.014/F946BXXS4DXKC:user/release-keys
+    BuildDesc="q5qxxx-user 15 TP1A.220624.014 F946BXXS5EYI1 release-keys" \
+    BuildFingerprint=samsung/q5qxxx/q5q:13/TP1A.220624.014/F946BXXS5EYI1:user/release-keys
+
