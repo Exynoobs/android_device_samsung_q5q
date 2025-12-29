@@ -5,7 +5,6 @@ vendor/etc/audconf/OPEN/acdb_cal.acdb
 vendor/etc/audconf/OPEN/workspaceFileXml.qwsp
 
 # Audio
-# Audio
 vendor/lib64/lib_lvacfs.so
 vendor/lib64/librecordalive.so
 vendor/lib64/libar-pal.so
@@ -267,6 +266,13 @@ vendor/firmware/CAMERA_ICP.mdt
 vendor/firmware/CAMERA_ICP_170.elf
 vendor/firmware/ois_mcu_stm32g_fw.bin
 
+# Display calibration data
+vendor/etc/display/qdcm_calib_data_Q5_S6E3FAC_AMB619EK01.json
+vendor/etc/display/qdcm_calib_data_Q5_S6E3XA2_AMF756BQ03.json
+vendor/firmware/Q5_S6E3FAC_AMB619EK01.dat
+vendor/firmware/Q5_S6E3XA2_AMF756BQ03.dat
+vendor/firmware/Q5_S6E3XA2_AMF756EJ01.dat
+
 # EVA firmware
 vendor/firmware/evass.b00
 vendor/firmware/evass.b01
@@ -291,12 +297,10 @@ vendor/firmware/evass.b19
 vendor/firmware/evass.mbn
 vendor/firmware/evass.mdt
 
-# Display calibration data
-vendor/etc/display/qdcm_calib_data_Q5_S6E3FAC_AMB619EK01.json
-vendor/etc/display/qdcm_calib_data_Q5_S6E3XA2_AMF756BQ03.json
-vendor/firmware/Q5_S6E3FAC_AMB619EK01.dat
-vendor/firmware/Q5_S6E3XA2_AMF756BQ03.dat
-vendor/firmware/Q5_S6E3XA2_AMF756EJ01.dat
+# Fingerprint
+vendor/lib64/libsfp_sensor.so
+vendor/lib64/libqfp_sensortest.so
+vendor/lib64/libsfp_teegw.so
 
 # NFC
 vendor/etc/nfc/libnfc-nxp_RF.conf
@@ -309,6 +313,7 @@ vendor/etc/init/vendor.samsung.rilchip.qcom.rc
 vendor/etc/init/vendor.samsung.rild.rc
 
 # Sensors config
+vendor/etc/sensors/config/sns_gyro_cal.json
 vendor/etc/sensors/config/kailua_ak991x_0.json
 vendor/etc/sensors/config/kailua_default_sensors.json
 vendor/etc/sensors/config/kailua_dynamic_sensors_template.json
