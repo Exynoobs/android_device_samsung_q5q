@@ -12,9 +12,11 @@ vendor/lib64/hw/audio.primary.kalama.so
 
 # Audio configs
 vendor/etc/audio/sku_kalama/mixer_paths.xml
+vendor/etc/audio/sku_kalama/resourcemanager.xml
 vendor/etc/audio_effects_haptic.xml
 vendor/etc/dolby/dax-default.xml
 vendor/etc/situation_audio_policy_volumes_sec.xml
+vendor/etc/usecaseKvManager.xml
 
 # Audio firmware
 vendor/firmware/cs35l43-bot-dsp1-spk-prot.bin
@@ -301,6 +303,9 @@ vendor/firmware/evass.mdt
 vendor/lib64/libsfp_sensor.so
 vendor/lib64/libqfp_sensortest.so
 vendor/lib64/libsfp_teegw.so
+
+# Media
+vendor/lib64/libqc2audio_hwaudiocodec.so
 
 # NFC
 vendor/etc/nfc/libnfc-nxp_RF.conf
