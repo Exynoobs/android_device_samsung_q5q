@@ -29,6 +29,10 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     FrameworksResq5q
 
+# Touch features
+PRODUCT_PACKAGES += \
+    vendor.lineage.touch-service.samsung-q5q
+
 # WiFi firmware symlinks
 PRODUCT_PACKAGES += \
     firmware_wlanmdsp.otaupdate_symlink \
