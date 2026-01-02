@@ -14,8 +14,8 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Displayconfig
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/config/display/display_id_4630947175568309891.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630947175568309891.xml \
-    $(LOCAL_PATH)/config/display/display_id_4630946481096930692.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946481096930692.xml
+    $(LOCAL_PATH)/configs/display/display_id_4630947175568309891.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630947175568309891.xml \
+    $(LOCAL_PATH)/configs/display/display_id_4630946481096930692.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4630946481096930692.xml
 
 # Init
 PRODUCT_PACKAGES += \
@@ -28,6 +28,10 @@ PRODUCT_SOONG_NAMESPACES += \
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResq5q
+
+# Power
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
 
 # Touch features
 PRODUCT_PACKAGES += \
