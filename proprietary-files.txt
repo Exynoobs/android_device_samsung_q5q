@@ -268,6 +268,9 @@ vendor/firmware/CAMERA_ICP.mbn
 vendor/firmware/CAMERA_ICP.mdt
 vendor/firmware/CAMERA_ICP_170.elf
 vendor/firmware/ois_mcu_stm32g_fw.bin
+vendor/firmware/CAMERA_ICP.b20:odm/firmware/CAMERA_ICP.b20|53910792b5d5dbf250e670394425ef6f039fa4e4
+vendor/firmware/CAMERA_ICP.mbn:odm/firmware/CAMERA_ICP.mbn|34b6ae3750d3189d5eb96661ada12879377a5de8
+vendor/firmware/CAMERA_ICP.mdt:odm/firmware/CAMERA_ICP.mdt|328982dbf4c0bc31bc19ee717afdd8f5df639078
 
 # Display calibration data
 vendor/etc/display/qdcm_calib_data_Q5_S6E3FAC_AMB619EK01.json
@@ -299,6 +302,9 @@ vendor/firmware/evass.b18
 vendor/firmware/evass.b19
 vendor/firmware/evass.mbn
 vendor/firmware/evass.mdt
+vendor/firmware/evass.b19:odm/firmware/evass.b19|d7a8775b8a905d74831a7808c3ab213948451420
+vendor/firmware/evass.mbn:odm/firmware/evass.mbn|f366df821ae6c19a46e61d6e60fd96e9d5d1ffbf
+vendor/firmware/evass.mdt:odm/firmware/evass.mdt|180cdfac6b12e7957c267ffd307f8c017e34bfdf
 
 # Fingerprint
 vendor/lib64/libsfp_sensor.so
@@ -367,6 +373,7 @@ vendor/firmware/vpu30_4v_16mb_unsigned.mbn
 vendor/firmware/vpu30_4v_unsigned.mbn
 vendor/firmware/vpu33_4v.mbn
 vendor/firmware/vpu33_4v_unsigned.mbn
+vendor/firmware/vpu30_4v.mbn:odm/firmware/vpu30_4v.mbn|7930bc661c8d0c460ecdf4f4806e2e10802b7782
 
 # Vendor firmware
 vendor/firmware/hpbtfw21.tlv
@@ -410,6 +417,9 @@ vendor/firmware/a740_zap.elf
 vendor/firmware/a740_zap.mbn
 vendor/firmware/a740_zap.mdt
 vendor/firmware/gmu_gen70200.bin
+vendor/firmware/a740_zap.b02:odm/firmware/a740_zap.b02|bc1837a89ee60b49e8d3331d8a06ca22ff09529c
+vendor/firmware/a740_zap.mbn:odm/firmware/a740_zap.mbn|11b1a9daad713e7c2c1184d41f1cc52868e61eb0
+vendor/firmware/a740_zap.mdt:odm/firmware/a740_zap.mdt|2cb1c3bb616dbaadf5f383c7a2ef3f6947c8056e
 
 # Display
 vendor/etc/devicestate/device_state_configuration.xml
