@@ -35,7 +35,7 @@ PRODUCT_COPY_FILES += \
 
 # Touch features
 PRODUCT_PACKAGES += \
-    vendor.lineage.touch-service.samsung-q5q
+    vendor.lineage.touch-service.samsung-foldable
 
 # WiFi firmware symlinks
 PRODUCT_PACKAGES += \
