@@ -25,6 +25,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH)
 
+# Multi Display Bootanimation
+$(call soong_config_set_bool,bootanimation,multidisplay,true)
+
 # Overlays
 PRODUCT_PACKAGES += \
     FrameworksResq5q
