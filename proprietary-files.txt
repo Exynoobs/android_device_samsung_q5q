@@ -315,7 +315,7 @@ vendor/lib64/libsfp_teegw.so
 vendor/lib64/libqc2audio_hwaudiocodec.so
 
 # NFC
-vendor/etc/nfc/libnfc-nxp_RF.conf
+vendor/etc/nfc/libnfc-nxp_RF.conf:vendor/libnfc-nxp_RF.conf
 
 # RIL
 vendor/bin/qms
