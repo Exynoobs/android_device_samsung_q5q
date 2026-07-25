@@ -1,390 +1,94 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
-
-<!-- Copyright (C) 2020 Google Inc.
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-      http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+<!--
+     Copyright (C) 2024 The LineageOS Project
+     SPDX-License-Identifier: Apache-2.0
 -->
-
 <displayConfiguration>
     <name>Outer Display</name>
+
     <screenBrightnessMap>
         <point>
             <value>0.0</value>
-            <nits>2.0</nits>
+            <nits>1</nits>
         </point>
         <point>
-            <value>0.5</value>
-            <nits>600.0</nits>
+            <value>0.015686</value>
+            <nits>10.39</nits>
+        </point>
+        <point>
+            <value>0.041830</value>
+            <nits>34.6</nits>
+        </point>
+        <point>
+            <value>0.083660</value>
+            <nits>83.72</nits>
+        </point>
+        <point>
+            <value>0.167320</value>
+            <nits>204.69</nits>
+        </point>
+        <point>
+            <value>0.250980</value>
+            <nits>346.06</nits>
+        </point>
+        <point>
+            <value>0.333333</value>
+            <nits>500</nits>
+        </point>
+        <point>
+            <value>0.522876</value>
+            <nits>784</nits>
+        </point>
+        <point>
+            <value>0.666667</value>
+            <nits>1000</nits>
+        </point>
+        <point>
+            <value>0.800000</value>
+            <nits>1200</nits>
         </point>
         <point>
             <value>1.0</value>
-            <nits>1200.0</nits>
+            <nits>1500</nits>
         </point>
     </screenBrightnessMap>
 
-    <screenBrightnessDefault>0.115191987</screenBrightnessDefault>
-
     <highBrightnessMode enabled="true">
-        <transitionPoint>0.5</transitionPoint>
-        <minimumLux>5724.62401237</minimumLux>
+        <transitionPoint>0.333333</transitionPoint>
+        <minimumLux>3000</minimumLux>
         <timing>
-            <!-- allow for 5 minutes out of every 30 minutes -->
-            <timeWindowSecs>1800</timeWindowSecs>
-            <timeMaxSecs>300</timeMaxSecs>
-            <timeMinSecs>60</timeMinSecs>
+            <timeWindowSecs>0</timeWindowSecs>
+            <timeMaxSecs>0</timeMaxSecs>
+            <timeMinSecs>0</timeMinSecs>
         </timing>
-        <allowInLowPowerMode>false</allowInLowPowerMode>
-        <minimumHdrPercentOfScreen>0.5</minimumHdrPercentOfScreen>
         <sdrHdrRatioMap>
             <point>
-                <sdrNits>2.000</sdrNits>
-                <hdrRatio>8.000</hdrRatio>
+                <sdrNits>1.0</sdrNits>
+                <hdrRatio>1.0</hdrRatio>
             </point>
             <point>
-                <sdrNits>75.000</sdrNits>
-                <hdrRatio>7.933</hdrRatio>
+                <sdrNits>2.0</sdrNits>
+                <hdrRatio>2.0</hdrRatio>
             </point>
             <point>
-                <sdrNits>79.837</sdrNits>
-                <hdrRatio>7.453</hdrRatio>
+                <sdrNits>80.0</sdrNits>
+                <hdrRatio>4.0</hdrRatio>
             </point>
             <point>
-                <sdrNits>84.674</sdrNits>
-                <hdrRatio>7.027</hdrRatio>
+                <sdrNits>100.0</sdrNits>
+                <hdrRatio>5.0</hdrRatio>
             </point>
             <point>
-                <sdrNits>89.511</sdrNits>
-                <hdrRatio>6.647</hdrRatio>
+                <sdrNits>300.0</sdrNits>
+                <hdrRatio>5.0</hdrRatio>
             </point>
             <point>
-                <sdrNits>94.348</sdrNits>
-                <hdrRatio>6.306</hdrRatio>
+                <sdrNits>500.0</sdrNits>
+                <hdrRatio>3.0</hdrRatio>
             </point>
             <point>
-                <sdrNits>99.185</sdrNits>
-                <hdrRatio>5.999</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>104.022</sdrNits>
-                <hdrRatio>5.720</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>108.859</sdrNits>
-                <hdrRatio>5.466</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>113.696</sdrNits>
-                <hdrRatio>5.233</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>118.534</sdrNits>
-                <hdrRatio>5.020</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>123.371</sdrNits>
-                <hdrRatio>4.823</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>128.208</sdrNits>
-                <hdrRatio>4.641</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>133.045</sdrNits>
-                <hdrRatio>4.472</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>137.882</sdrNits>
-                <hdrRatio>4.315</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>142.719</sdrNits>
-                <hdrRatio>4.169</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>147.556</sdrNits>
-                <hdrRatio>4.032</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>152.393</sdrNits>
-                <hdrRatio>3.904</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>157.230</sdrNits>
-                <hdrRatio>3.784</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>162.067</sdrNits>
-                <hdrRatio>3.671</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>166.904</sdrNits>
-                <hdrRatio>3.565</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>171.741</sdrNits>
-                <hdrRatio>3.465</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>176.578</sdrNits>
-                <hdrRatio>3.370</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>181.415</sdrNits>
-                <hdrRatio>3.280</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>186.252</sdrNits>
-                <hdrRatio>3.195</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>191.089</sdrNits>
-                <hdrRatio>3.114</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>195.926</sdrNits>
-                <hdrRatio>3.037</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>200.763</sdrNits>
-                <hdrRatio>2.964</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>205.601</sdrNits>
-                <hdrRatio>2.894</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>210.438</sdrNits>
-                <hdrRatio>2.827</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>215.275</sdrNits>
-                <hdrRatio>2.764</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>220.112</sdrNits>
-                <hdrRatio>2.703</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>224.949</sdrNits>
-                <hdrRatio>2.645</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>229.786</sdrNits>
-                <hdrRatio>2.589</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>234.623</sdrNits>
-                <hdrRatio>2.536</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>239.460</sdrNits>
-                <hdrRatio>2.485</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>244.297</sdrNits>
-                <hdrRatio>2.436</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>249.134</sdrNits>
-                <hdrRatio>2.388</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>253.971</sdrNits>
-                <hdrRatio>2.343</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>258.808</sdrNits>
-                <hdrRatio>2.299</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>263.645</sdrNits>
-                <hdrRatio>2.257</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>268.482</sdrNits>
-                <hdrRatio>2.216</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>273.319</sdrNits>
-                <hdrRatio>2.177</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>278.156</sdrNits>
-                <hdrRatio>2.139</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>282.993</sdrNits>
-                <hdrRatio>2.103</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>287.830</sdrNits>
-                <hdrRatio>2.067</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>292.668</sdrNits>
-                <hdrRatio>2.033</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>297.505</sdrNits>
-                <hdrRatio>2.000</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>302.342</sdrNits>
-                <hdrRatio>1.968</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>307.179</sdrNits>
-                <hdrRatio>1.937</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>312.016</sdrNits>
-                <hdrRatio>1.907</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>316.853</sdrNits>
-                <hdrRatio>1.878</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>321.690</sdrNits>
-                <hdrRatio>1.850</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>326.527</sdrNits>
-                <hdrRatio>1.822</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>331.364</sdrNits>
-                <hdrRatio>1.796</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>336.201</sdrNits>
-                <hdrRatio>1.770</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>341.038</sdrNits>
-                <hdrRatio>1.745</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>345.875</sdrNits>
-                <hdrRatio>1.720</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>350.712</sdrNits>
-                <hdrRatio>1.697</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>355.549</sdrNits>
-                <hdrRatio>1.673</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>360.386</sdrNits>
-                <hdrRatio>1.651</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>365.223</sdrNits>
-                <hdrRatio>1.629</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>370.060</sdrNits>
-                <hdrRatio>1.608</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>374.898</sdrNits>
-                <hdrRatio>1.587</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>379.735</sdrNits>
-                <hdrRatio>1.567</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>384.572</sdrNits>
-                <hdrRatio>1.547</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>389.409</sdrNits>
-                <hdrRatio>1.528</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>394.246</sdrNits>
-                <hdrRatio>1.509</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>399.083</sdrNits>
-                <hdrRatio>1.491</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>403.920</sdrNits>
-                <hdrRatio>1.473</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>408.757</sdrNits>
-                <hdrRatio>1.456</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>413.594</sdrNits>
-                <hdrRatio>1.439</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>418.431</sdrNits>
-                <hdrRatio>1.422</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>423.268</sdrNits>
-                <hdrRatio>1.406</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>428.105</sdrNits>
-                <hdrRatio>1.390</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>432.942</sdrNits>
-                <hdrRatio>1.374</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>437.779</sdrNits>
-                <hdrRatio>1.359</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>442.616</sdrNits>
-                <hdrRatio>1.344</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>447.453</sdrNits>
-                <hdrRatio>1.330</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>452.290</sdrNits>
-                <hdrRatio>1.316</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>457.127</sdrNits>
-                <hdrRatio>1.302</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>492.846</sdrNits>
-                <hdrRatio>1.514</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>528.564</sdrNits>
-                <hdrRatio>1.698</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>564.282</sdrNits>
-                <hdrRatio>1.859</hdrRatio>
-            </point>
-            <point>
-                <sdrNits>600.000</sdrNits>
-                <hdrRatio>2.000</hdrRatio>
+                <sdrNits>1500.0</sdrNits>
+                <hdrRatio>1.0</hdrRatio>
             </point>
         </sdrHdrRatioMap>
     </highBrightnessMode>
@@ -393,149 +97,10 @@
         <quirk>canSetBrightnessViaHwc</quirk>
     </quirks>
 
-    <autoBrightness enabled="true">
-    </autoBrightness>
+    <autoBrightness enabled="true" />
 
     <lightSensor>
         <type>com.samsung.sensor.auto_brightness</type>
-        <name>Auto Brightness 1</name>
+        <name>Auto Brightness Light  Non-wakeup</name>
     </lightSensor>
-
-    <proxSensor>
-        <type>android.sensor.proximity</type>
-        <name>Virtual Proximity (wake-up)</name>
-    </proxSensor>
-
-    <screenBrightnessRampIncreaseMaxMillis>2000</screenBrightnessRampIncreaseMaxMillis>
-
-    <ambientBrightnessChangeThresholds>
-        <brighteningThresholds>
-            <minimum>10</minimum>
-        </brighteningThresholds>
-        <darkeningThresholds>
-            <minimum>0</minimum>
-        </darkeningThresholds>
-    </ambientBrightnessChangeThresholds>
-
-    <ambientLightHorizonLong>5000</ambientLightHorizonLong>
-    <ambientLightHorizonShort>50</ambientLightHorizonShort>
-
-    <thermalThrottling>
-        <!-- Single display mode map -->
-        <brightnessThrottlingMap>
-            <brightnessThrottlingPoint>
-                <thermalStatus>light</thermalStatus>
-                <!-- Throttling to 465 nits: (465-2.0)/(600-2.0)*(0.5-0.0)+0.0 = 0.464548495 -->
-                <brightness>0.387123746</brightness>
-            </brightnessThrottlingPoint>
-            <brightnessThrottlingPoint>
-                <thermalStatus>moderate</thermalStatus>
-                <!-- Throttling to 297 nits: (297-2.0)/(600-2.0)*(0.5-0.0)+0.0 = 0.295986622 -->
-                <brightness>0.246655518</brightness>
-            </brightnessThrottlingPoint>
-            <brightnessThrottlingPoint>
-                <thermalStatus>severe</thermalStatus>
-                <!-- Throttling to 213 nits: (213-2.0)/(600-2.0)*(0.5-0.0)+0.0 = 0.211705686 -->
-                <brightness>0.176421405</brightness>
-            </brightnessThrottlingPoint>
-            <brightnessThrottlingPoint>
-                <thermalStatus>critical</thermalStatus>
-                <!-- Throttling to 150 nits: (150-2.0)/(600-2.0)*(0.5-0.0)+0.0 = 0.148494983 -->
-                <brightness>0.123745819</brightness>
-            </brightnessThrottlingPoint>
-        </brightnessThrottlingMap>
-
-        <!-- Concurrent display mode map -->
-        <brightnessThrottlingMap id="concurrent">
-            <brightnessThrottlingPoint>
-                <thermalStatus>light</thermalStatus>
-                <!-- Throttling to 297 nits: (297-2.0)/(600-2.0)*(0.5-0.0)+0.0 = 0.24665551839 -->
-                <brightness>0.24665551839</brightness>
-            </brightnessThrottlingPoint>
-            <brightnessThrottlingPoint>
-                <thermalStatus>moderate</thermalStatus>
-                <!-- Throttling to 213 nits: (213-2.0)/(600-2.0)*(0.5-0.0)+0.0 = 0.17642140468 -->
-                <brightness>0.17642140468</brightness>
-            </brightnessThrottlingPoint>
-            <brightnessThrottlingPoint>
-                <thermalStatus>severe</thermalStatus>
-                <!-- Throttling to 150 nits: (150-2.0)/(600-2.0)*(0.5-0.0)+0.0 = 0.12374581939 -->
-                <brightness>0.12374581939</brightness>
-            </brightnessThrottlingPoint>
-        </brightnessThrottlingMap>
-
-        <!-- default refreshRate throttling map -->
-        <refreshRateThrottlingMap>
-            <refreshRateThrottlingPoint>
-                <!-- for thermal status critical and above -->
-                <thermalStatus>critical</thermalStatus>
-                <refreshRateRange>
-                    <minimum>0</minimum>
-                    <maximum>60</maximum>
-                </refreshRateRange>
-            </refreshRateThrottlingPoint>
-        </refreshRateThrottlingMap>
-
-        <refreshRateThrottlingMap id="moderate60">
-            <refreshRateThrottlingPoint>
-                <thermalStatus>moderate</thermalStatus>
-                <refreshRateRange>
-                    <minimum>60</minimum>
-                    <maximum>60</maximum>
-                </refreshRateRange>
-            </refreshRateThrottlingPoint>
-        </refreshRateThrottlingMap>
-    </thermalThrottling>
-
-    <screenBrightnessRampFastDecrease>0.7047244</screenBrightnessRampFastDecrease>
-    <screenBrightnessRampFastIncrease>0.7047244</screenBrightnessRampFastIncrease>
-    <screenBrightnessRampSlowDecrease>0.05</screenBrightnessRampSlowDecrease>
-    <screenBrightnessRampSlowIncrease>0.05</screenBrightnessRampSlowIncrease>
-
-    <screenOffBrightnessSensor>
-        <type>com.google.sensor.binned_brightness</type>
-        <name>Binned Brightness 1 (wake-up)</name>
-    </screenOffBrightnessSensor>
-    <screenOffBrightnessSensorValueToLux>
-        <item>-1</item> <!-- 0: OFF -->
-        <item>0</item>  <!-- 1: NIGHT -->
-        <item>5</item>  <!-- 2: LOW -->
-        <item>80</item> <!-- 3: HIGH -->
-        <item>1500</item> <!-- 4: SUN -->
-    </screenOffBrightnessSensorValueToLux>
-    <refreshRate>
-        <refreshRateZoneProfiles>
-            <refreshRateZoneProfile id="concurrent">
-                <refreshRateRange>
-                    <minimum>60</minimum>
-                    <maximum>60</maximum>
-                </refreshRateRange>
-            </refreshRateZoneProfile>
-        </refreshRateZoneProfiles>
-        <lowerBlockingZoneConfigs>
-            <defaultRefreshRate>120</defaultRefreshRate>
-            <blockingZoneThreshold>
-                <displayBrightnessPoint>
-                    <lux>-1</lux>
-                    <nits>10</nits>
-                </displayBrightnessPoint>
-                <displayBrightnessPoint>
-                    <lux>15</lux>
-                    <nits>-1</nits>
-                </displayBrightnessPoint>
-            </blockingZoneThreshold>
-        </lowerBlockingZoneConfigs>
-        <higherBlockingZoneConfigs>
-            <defaultRefreshRate>120</defaultRefreshRate>
-            <refreshRateThermalThrottlingId>moderate60</refreshRateThermalThrottlingId>
-            <blockingZoneThreshold>
-                <displayBrightnessPoint>
-                    <lux>30000</lux>
-                    <nits>600</nits>
-                </displayBrightnessPoint>
-            </blockingZoneThreshold>
-        </higherBlockingZoneConfigs>
-        <defaultRefreshRateInHbmHdr>60</defaultRefreshRateInHbmHdr>
-    </refreshRate>
 </displayConfiguration>
-
