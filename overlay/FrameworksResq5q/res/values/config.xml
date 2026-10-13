@@ -215,13 +215,6 @@
         <item>2:2</item>
     </string-array>
 
-    <!-- Device states where the sensor based rotation values should be reversed around the Z axis
-         for the default display.
-         TODO(b/265312193): Remove this workaround when this bug is fixed.-->
-    <integer-array name="config_deviceStatesToReverseDefaultDisplayRotationAroundZAxis">
-        <item>3</item>
-    </integer-array>
-
     <string-array name="config_displayUniqueIdArray" translatable="false">
         <item>"local:4630947175568309891"</item>
         <item>"local:4630946481096930692"</item>
